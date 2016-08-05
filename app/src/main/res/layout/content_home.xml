@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.HomeActivity"
+    tools:showIn="@layout/activity_home">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/food_btn"
+        android:id="@+id/button"
+        android:onClick="goFood"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_btn"
+        android:id="@+id/button2"
+        android:onClick="goHome"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="$$$"
+        android:id="@+id/userNameText"
+        android:textSize="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Info"
+        android:onClick="goEdit"
+        android:id="@+id/button7"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/weightText"
+        android:id="@+id/weightText"
+        android:autoText="false"
+        android:textSize="17dp"
+        android:layout_below="@+id/heightText"
+        android:layout_alignStart="@+id/heightText"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/heightText"
+        android:text="@string/heightText"
+        android:textSize="17dp"
+        android:layout_below="@+id/userNameText"
+        android:layout_alignStart="@+id/userNameText"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="$$$$"
+        android:id="@+id/text_userBMI"
+        android:textSize="17dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/weightText"
+        android:layout_alignStart="@+id/weightText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="$$$$"
+        android:id="@+id/text_calLeft"
+        android:textSize="17dp"
+        android:layout_below="@+id/userCaloriesText"
+        android:layout_alignStart="@+id/text_userBMI" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="$$$$"
+        android:id="@+id/userCaloriesText"
+        android:textSize="17dp"
+        android:layout_below="@+id/text_userBMI"
+        android:layout_alignStart="@+id/text_calLeft" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset food"
+        android:onClick="resetFoods"
+        android:id="@+id/button3"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp" />
+
+
+</RelativeLayout>

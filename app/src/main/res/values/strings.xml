@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Omn App!</string>
+    <string name="action_settings">Customise</string>
+    <string name="home_btn">Home</string>
+    <string name="food_btn">Add food</string>
+    <string name="gym_btn">Add Gym</string>
+    <string name="title_activity_food">FoodActivity</string>
+    <string name="title_activity_gym">GymActivity</string>
+    <string name="userNameText">$</string>
+    <string name="userCaloriesText">$$$</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="weightText">$$$$</string>
+    <string name="heightText">$$$$</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_new_food">NewFoodActivity</string>
+    <string name="title_activity_custom_food">CustomFood</string>
+    <string name="title_activity_eaten_food">EatenFoodActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+
+</resources>
