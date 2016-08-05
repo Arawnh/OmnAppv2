@@ -1,1 +1,1 @@
-"# OmnAppv2" 
+Crappy android app created for uni project ;3
